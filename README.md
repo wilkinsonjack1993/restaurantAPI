@@ -37,3 +37,8 @@ API Endpoints:
  * Allows any user to view an order via a get request
  * Allows only managers (super-users) to delete orders via delete requests
  
+ Example update request:
+ http://127.0.0.1:8000/order/manageorder/3
+ { "order_complete":true}
+
+ 
